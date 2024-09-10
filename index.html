@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>練習4</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1><img src=""></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bg-img"></div>
+  </header>
+
+  <div id="target-2"></div>
+
+  <main>
+    <article class="container">
+
+      <section>
+        <h2 id="#about">About</h2>
+        <p>1999, Hayato Yoshihira</p>
+        <p class="example">コメントコメントコメントコメントコメントコメント<br>tel: コメントコメントコメント<br>url: コメントコメントコメント<br>mail: コメントコメントコメント</p>
+        <p>プロフィール<br>コメントコメントコメントコメントコメントコメントコメントコメントコメントコメント</p>
+      </section>
+
+      <section class="products">
+        <h2 id="works">Works</h2>
+        <div class="items">
+          <img src="image/Tsuyukusa.jpg">
+          <img src="image/Toki.jpg">
+          <img src="image/Kikyo.jpg">
+          <img src="image/Matsuba.jpg">
+          <img src="image/Scarlet.jpg">
+          <img src="image/Himawari.jpg">
+        </div>
+      </section>
+
+      <section class="post">
+        <h2 id="news">News</h2>
+        <dl>
+          <dt>2022.XX.YY</dt>
+          <dd>コメントコメントコメント</dd>
+        </dl>
+        <dl>
+          <dt>2021</dt>
+          <dd>コメントコメントコメントコメント</dd>
+        </dl>
+        <dl>
+          <dt>2020</dt>
+          <dd>コメントコメントコメント</dd>
+        </dl>
+        <dl>
+          <dt>2019</dt>
+          <dd>コメントコメントコメントコメント</dd>
+        </dl>
+        <dl>
+          <dt>2019</dt>
+          <dd>コメントコメントコメント</dd>
+        </dl>
+      </section>
+
+      <section class="form">
+        <h2 id="contact">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="name"></dd>
+          </dl>
+          <dl>
+            <dt><label for="mail">E-mail</label></dt>
+            <dd><input type="text" id="mail" name="mail"></dd>
+          </dl>
+          <dl>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea name="message" id="message"></textarea></dd>
+          </dl>
+          <div>
+            <button type="submit">送信</button>
+          </div>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <small>(c) hayto.com</small>
+  </footer>
+
+  <svg class="to_top" id="to_top">
+    <use href="#arrow-up"></use>
+  </svg>
+
+  <svg style="display: none;">
+    <symbol id="arrow-up" viewBox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+    </symbol>
+  </svg>
+</body>
+</html>
